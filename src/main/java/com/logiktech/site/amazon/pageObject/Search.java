@@ -38,16 +38,7 @@ public class Search extends BasePage<Search> {
 	@Override
 	public void isLoaded(){
 		(new WebDriverWait(driver, 30))
-				.until(ExpectedConditions.elementToBeClickable(searchInDropDown.findElement(By.cssSelector("span.nav-search-label"))));
-	}
-
-	
-	public boolean isElementPresent(){
-		return searchBox.isDisplayed();
-	}
-	
-	public void searchText(String itemToSearch){
-		searchBox.submit();		
+				.until(ExpectedConditions.elementToBeClickable(searchInDropDown));
 	}
 	
 	public void enterItemToSearch(String item){
@@ -63,7 +54,6 @@ public class Search extends BasePage<Search> {
 	}
 
 	public String getDeptInSearchDropDown() {
-	//	waitForTextToBePresent(searchInDropDown.findElement(By.cssSelector("span.nav-search-label")),"Watches");
 		return searchInDropDown.findElement(By.cssSelector("span.nav-search-label")).getText();
 	}
 

@@ -44,24 +44,4 @@ public abstract class BasePage<T extends BasePage<T>> extends LoadableComponent<
                     .until(ExpectedConditions.elementToBeClickable(element));
         }
 
-        public static void waitForTextToBePresent(WebElement element, String text){
-
-            for (int i=0; i < 60; i++){
-                try {
-                    Thread.sleep(60000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            System.out.println(element.getText());
-        }
-
-
-
-        (new WebDriverWait(driver, wait))
-                .until(ExpectedConditions.textToBePresentInElement(element, text));
-    }
-
-
-
-
 }

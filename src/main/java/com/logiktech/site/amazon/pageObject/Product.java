@@ -37,8 +37,6 @@ public class Product extends BasePage<Product> {
     @Override
     public void isLoaded(){
 
-        System.out.println(this.productItem.findElement(By.cssSelector("a.s-access-detail-page")).getAttribute("title").toUpperCase());
-
         (new WebDriverWait(driver, 30))
                 .until(ExpectedConditions.elementToBeClickable(this.productItem));
 
