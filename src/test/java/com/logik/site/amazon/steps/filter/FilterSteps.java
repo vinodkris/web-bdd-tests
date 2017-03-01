@@ -1,6 +1,6 @@
 package com.logik.site.amazon.steps.filter;
 
-import com.logik.site.utils.SharedDriver;
+import com.logiktech.test.utils.SharedDriver;
 import com.logiktech.site.amazon.pageObject.FilterMenu;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;

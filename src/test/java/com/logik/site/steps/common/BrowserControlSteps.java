@@ -3,7 +3,7 @@ package com.logik.site.steps.common;
 import java.util.Map;
 
 
-import com.logik.site.utils.SharedDriver;
+import com.logiktech.test.utils.SharedDriver;
 import cucumber.api.java.Before;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

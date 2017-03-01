@@ -1,16 +1,12 @@
 package com.logik.site.amazon.steps.search;
 
 
-import com.logik.site.utils.SharedDriver;
-import com.logiktech.site.amazon.pageObject.ResultPage;
+import com.logiktech.test.utils.SharedDriver;
 import com.logiktech.site.amazon.pageObject.Search;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-
-import java.util.*;
 
 public class SearchSteps {
 

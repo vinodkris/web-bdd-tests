@@ -1,6 +1,6 @@
 package com.logiktech.site.amazon.pageObject;
 
-import com.utils.BasePage;
+import com.logiktech.test.utils.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;

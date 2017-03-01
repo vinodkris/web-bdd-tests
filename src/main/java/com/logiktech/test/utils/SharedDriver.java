@@ -1,12 +1,9 @@
-package com.logik.site.utils;
+package com.logiktech.test.utils;
 
 
 import cucumber.api.java.After;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
-import java.util.Set;
 
 /**
  * Created by vinod on 24/07/2016.

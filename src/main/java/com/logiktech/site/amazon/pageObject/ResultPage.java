@@ -3,8 +3,7 @@ package com.logiktech.site.amazon.pageObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.utils.BasePage;
-import org.apache.commons.collections.ListUtils;
+import com.logiktech.test.utils.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

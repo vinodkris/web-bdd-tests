@@ -1,8 +1,7 @@
 package com.logik.site.amazon.steps.result;
 
-import com.logik.site.utils.SharedDriver;
+import com.logiktech.test.utils.SharedDriver;
 import com.logiktech.site.amazon.pageObject.ProductPage;
-import com.logiktech.site.amazon.pageObject.Product;
 import com.logiktech.site.amazon.pageObject.ResultPage;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

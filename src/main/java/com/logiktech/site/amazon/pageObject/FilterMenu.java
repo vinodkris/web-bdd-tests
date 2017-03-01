@@ -1,6 +1,6 @@
 package com.logiktech.site.amazon.pageObject;
 
-import com.utils.BasePage;
+import com.logiktech.test.utils.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

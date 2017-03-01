@@ -1,4 +1,4 @@
-package com.utils;
+package com.logiktech.test.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;

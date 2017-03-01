@@ -1,4 +1,4 @@
-package com.logik.site.utils;
+package com.logiktech.test.utils;
 
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.openqa.selenium.WebDriver;
